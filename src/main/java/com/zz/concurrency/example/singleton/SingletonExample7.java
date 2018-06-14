@@ -33,7 +33,6 @@ public class SingletonExample7 {
             return singleton;
         }
     }
-
-
+    
 
 }
