@@ -19,7 +19,7 @@ import java.util.concurrent.Executors;
 @Slf4j
 public class CyclicBarrierExample1 {
 
-    private static CyclicBarrier cyclicBarrier = new CyclicBarrier(5,()->{ //在new的时候还能指定一个函数
+    private static CyclicBarrier cyclicBarrier = new CyclicBarrier(5,()->{ //在new的时候还能指定一个callback函数
         log.info("callback");
     });
 
