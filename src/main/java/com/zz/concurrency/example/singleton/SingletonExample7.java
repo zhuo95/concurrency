@@ -2,13 +2,14 @@ package com.zz.concurrency.example.singleton;
 
 import com.zz.concurrency.annotations.NotThreadSafe;
 import com.zz.concurrency.annotations.Recommend;
+import com.zz.concurrency.annotations.ThreadSafe;
 
 /**
  * 通过枚举,最安全
  *
  */
 
-@NotThreadSafe
+@ThreadSafe
 @Recommend
 public class SingletonExample7 {
     //私有构造函数
