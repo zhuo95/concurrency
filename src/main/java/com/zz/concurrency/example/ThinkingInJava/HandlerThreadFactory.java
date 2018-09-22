@@ -2,6 +2,11 @@ package com.zz.concurrency.example.ThinkingInJava;
 
 import java.util.concurrent.ThreadFactory;
 
+/**
+ * 这是一个带handler的thread的factory
+ *
+ */
+
 public class HandlerThreadFactory implements ThreadFactory {
     public Thread newThread(Runnable r){
         Thread t = new Thread(r); // create Thread
