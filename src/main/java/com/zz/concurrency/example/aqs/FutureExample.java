@@ -32,6 +32,7 @@ public class FutureExample {
         Thread.sleep(1000);
         String res = future.get();
         log.info("result:{}",res);
+        exe.shutdown();
     }
 
 }
